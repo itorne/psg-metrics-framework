@@ -1,7 +1,7 @@
 # PSG Metrics Framework — Extraction, Packaging and Figures
 
 Reproducible scripts for the paper *"Bridging Clinical Sleep Reports and AI: An Open,
-Reproducible Polysomnography Metrics Framework"* (IOCTe 2026). They take the de-identified,
+Reproducible Polysomnography Metrics Framework"*. They take the de-identified,
 transcribed polysomnography (PSG) summary metrics and (i) validate internal consistency,
 (ii) serialize the mirrored JSON, and (iii) regenerate the three paper figures.
 
