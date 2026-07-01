@@ -1,0 +1,77 @@
+metric,domain,segment,unit,description
+subject_id,subject,all,id,Anonymized subject identifier (SUBJECT-01)
+sex,subject,all,category,Biological sex of the subject (male)
+study_type,subject,all,category,Type of sleep study (attended in-lab Type I PSG)
+sleep_onset_latency,sleep_architecture,all,min,Time from lights-off to first epoch of sleep
+rem_latency,sleep_architecture,all,min,Time from sleep onset to first REM epoch
+n1_latency,sleep_architecture,all,min,Latency to first N1 epoch
+n2_latency,sleep_architecture,all,min,Latency to first N2 epoch
+n3_latency,sleep_architecture,all,min,Latency to first N3 epoch
+wake_latency,sleep_architecture,all,min,Wake latency as reported
+rem_minus_waso_latency,sleep_architecture,all,min,REM latency excluding wake after sleep onset
+cycles_n1,sleep_architecture,all,count,Number of N1 cycles
+cycles_n2,sleep_architecture,all,count,Number of N2 cycles
+cycles_n3,sleep_architecture,all,count,Number of N3 cycles
+cycles_rem,sleep_architecture,all,count,Number of REM cycles
+cycles_nrem,sleep_architecture,all,count,Number of NREM cycles
+cycles_awake,sleep_architecture,all,count,Number of awake cycles
+stage_time_n1,sleep_architecture,n1,min,Total time in N1
+stage_time_n2,sleep_architecture,n2,min,Total time in N2
+stage_time_n3,sleep_architecture,n3,min,Total time in N3
+stage_time_rem,sleep_architecture,rem,min,Total time in REM
+tst_pct_n1,sleep_architecture,n1,percent,Percentage of total sleep time in N1
+tst_pct_n2,sleep_architecture,n2,percent,Percentage of total sleep time in N2
+tst_pct_n3,sleep_architecture,n3,percent,Percentage of total sleep time in N3
+tst_pct_rem,sleep_architecture,rem,percent,Percentage of total sleep time in REM
+total_sleep_time,sleep_architecture,all,min,Total sleep time (TST)
+sleep_efficiency_tst,sleep_architecture,all,percent,100 x TST / time in bed
+sleep_efficiency_spt,sleep_architecture,all,percent,100 x sleep period time / time in bed
+stage_shifts_total,sleep_architecture,all,count,Total number of stage transitions
+stage_shifts_per_hour,sleep_architecture,all,count_per_hour,Stage transitions per hour of sleep
+apnea_central_count,respiratory,tst,count,Number of central apneas over total sleep time
+apnea_obstructive_count,respiratory,tst,count,Number of obstructive apneas over total sleep time
+apnea_mixed_count,respiratory,tst,count,Number of mixed apneas over total sleep time
+apnea_total_count,respiratory,tst,count,Total apneas over total sleep time
+hypopnea_count,respiratory,tst,count,Number of hypopneas over total sleep time
+apnea_hypopnea_count,respiratory,tst,count,Total apneas plus hypopneas
+rera_count,respiratory,tst,count,Respiratory effort-related arousals
+ahi_tst,respiratory,tst,events_per_hour,Apnea-hypopnea index over total sleep time
+ahi_rem,respiratory,rem,events_per_hour,Apnea-hypopnea index during REM
+ahi_nrem,respiratory,nrem,events_per_hour,Apnea-hypopnea index during NREM
+rdi_tst,respiratory,tst,events_per_hour,Respiratory disturbance index over total sleep time
+rdi_rem,respiratory,rem,events_per_hour,Respiratory disturbance index during REM
+rdi_nrem,respiratory,nrem,events_per_hour,Respiratory disturbance index during NREM
+apnea_index,respiratory,tst,events_per_hour,Apnea index (all apneas) over total sleep time
+hypopnea_index,respiratory,tst,events_per_hour,Hypopnea index over total sleep time
+cheyne_stokes_present,respiratory,tst,boolean,Cheyne-Stokes respiration present (0=no,1=yes)
+periodic_breathing_events_tst,respiratory,tst,count,Number of periodic-breathing events over TST
+spo2_mean_tst,oximetry,tst,percent,Mean SpO2 over total sleep time
+spo2_mean_nrem,oximetry,nrem,percent,Mean SpO2 during NREM
+spo2_mean_rem,oximetry,rem,percent,Mean SpO2 during REM
+spo2_min_tst,oximetry,tst,percent,Minimum SpO2 over total sleep time
+spo2_min_rem,oximetry,rem,percent,Minimum SpO2 during REM
+spo2_min_with_resp_event,oximetry,tst,percent,Minimum SpO2 associated with a respiratory event
+spo2_mean_before_sleep,oximetry,all,percent,Mean SpO2 before sleep onset
+desaturation_total,oximetry,tst,count,Total number of oxygen desaturations
+desaturation_index,oximetry,tst,events_per_hour,Oxygen desaturation index over total sleep time
+desaturation_index_rem,oximetry,rem,events_per_hour,Oxygen desaturation index during REM
+desaturation_index_nrem,oximetry,nrem,events_per_hour,Oxygen desaturation index during NREM
+episodes_below_85pct,oximetry,tst,count,Number of episodes with SpO2 below 85 percent
+time_below_90pct,oximetry,tst,min,Cumulative time with SpO2 below 90 percent
+time_below_88pct,oximetry,tst,min,Cumulative time with SpO2 below 88 percent
+time_below_85pct,oximetry,tst,min,Cumulative time with SpO2 below 85 percent
+heart_rate_mean,cardiac,tst,bpm,Mean heart rate over total sleep time
+heart_rate_sd,cardiac,tst,bpm,Standard deviation of heart rate
+hr_min_wake,cardiac,wake,bpm,Minimum heart rate during wake
+hr_max_wake,cardiac,wake,bpm,Maximum heart rate during wake
+hr_min_nrem,cardiac,nrem,bpm,Minimum heart rate during NREM
+hr_max_nrem,cardiac,nrem,bpm,Maximum heart rate during NREM
+hr_min_rem,cardiac,rem,bpm,Minimum heart rate during REM
+hr_max_rem,cardiac,rem,bpm,Maximum heart rate during REM
+hr_min_during_resp_event,cardiac,tst,bpm,Minimum heart rate during respiratory events
+bradycardia_count,cardiac,tst,count,Number of bradycardia occurrences
+arrhythmia_count,cardiac,tst,count,Number of arrhythmia occurrences
+bruxism_count_tst,movement,tst,count,Number of bruxism events over total sleep time
+bruxism_index_tst,movement,tst,events_per_hour,Bruxism index over total sleep time
+rbd_count,movement,tst,count,REM behavior disorder events
+rmd_count,movement,tst,count,Rhythmic movement disorder events

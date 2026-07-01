@@ -1,0 +1,394 @@
+{
+  "subject": {
+    "subject_id": {
+      "segment": "all",
+      "value": "SUBJECT-01",
+      "unit": "id"
+    },
+    "sex": {
+      "segment": "all",
+      "value": "male",
+      "unit": "category"
+    },
+    "study_type": {
+      "segment": "all",
+      "value": "attended_polysomnography_type_I",
+      "unit": "category"
+    }
+  },
+  "sleep_architecture": {
+    "sleep_onset_latency": {
+      "segment": "all",
+      "value": 7.5,
+      "unit": "min"
+    },
+    "rem_latency": {
+      "segment": "all",
+      "value": 22.5,
+      "unit": "min"
+    },
+    "n1_latency": {
+      "segment": "all",
+      "value": 7.5,
+      "unit": "min"
+    },
+    "n2_latency": {
+      "segment": "all",
+      "value": 9.5,
+      "unit": "min"
+    },
+    "n3_latency": {
+      "segment": "all",
+      "value": 24.0,
+      "unit": "min"
+    },
+    "wake_latency": {
+      "segment": "all",
+      "value": 63.0,
+      "unit": "min"
+    },
+    "rem_minus_waso_latency": {
+      "segment": "all",
+      "value": 22.5,
+      "unit": "min"
+    },
+    "cycles_n1": {
+      "segment": "all",
+      "value": 8.0,
+      "unit": "count"
+    },
+    "cycles_n2": {
+      "segment": "all",
+      "value": 9.0,
+      "unit": "count"
+    },
+    "cycles_n3": {
+      "segment": "all",
+      "value": 8.0,
+      "unit": "count"
+    },
+    "cycles_rem": {
+      "segment": "all",
+      "value": 5.0,
+      "unit": "count"
+    },
+    "cycles_nrem": {
+      "segment": "all",
+      "value": 14.0,
+      "unit": "count"
+    },
+    "cycles_awake": {
+      "segment": "all",
+      "value": 11.0,
+      "unit": "count"
+    },
+    "stage_time_n1": {
+      "segment": "n1",
+      "value": 57.5,
+      "unit": "min"
+    },
+    "stage_time_n2": {
+      "segment": "n2",
+      "value": 113.5,
+      "unit": "min"
+    },
+    "stage_time_n3": {
+      "segment": "n3",
+      "value": 73.5,
+      "unit": "min"
+    },
+    "stage_time_rem": {
+      "segment": "rem",
+      "value": 23.5,
+      "unit": "min"
+    },
+    "tst_pct_n1": {
+      "segment": "n1",
+      "value": 21.5,
+      "unit": "percent"
+    },
+    "tst_pct_n2": {
+      "segment": "n2",
+      "value": 42.4,
+      "unit": "percent"
+    },
+    "tst_pct_n3": {
+      "segment": "n3",
+      "value": 27.4,
+      "unit": "percent"
+    },
+    "tst_pct_rem": {
+      "segment": "rem",
+      "value": 8.8,
+      "unit": "percent"
+    },
+    "total_sleep_time": {
+      "segment": "all",
+      "value": 268.0,
+      "unit": "min"
+    },
+    "sleep_efficiency_tst": {
+      "segment": "all",
+      "value": 78.8,
+      "unit": "percent"
+    },
+    "sleep_efficiency_spt": {
+      "segment": "all",
+      "value": 97.5,
+      "unit": "percent"
+    },
+    "stage_shifts_total": {
+      "segment": "all",
+      "value": 40.0,
+      "unit": "count"
+    },
+    "stage_shifts_per_hour": {
+      "segment": "all",
+      "value": 9.0,
+      "unit": "count_per_hour"
+    }
+  },
+  "respiratory": {
+    "apnea_central_count": {
+      "segment": "tst",
+      "value": 2.0,
+      "unit": "count"
+    },
+    "apnea_obstructive_count": {
+      "segment": "tst",
+      "value": 133.0,
+      "unit": "count"
+    },
+    "apnea_mixed_count": {
+      "segment": "tst",
+      "value": 0.0,
+      "unit": "count"
+    },
+    "apnea_total_count": {
+      "segment": "tst",
+      "value": 135.0,
+      "unit": "count"
+    },
+    "hypopnea_count": {
+      "segment": "tst",
+      "value": 0.0,
+      "unit": "count"
+    },
+    "apnea_hypopnea_count": {
+      "segment": "tst",
+      "value": 135.0,
+      "unit": "count"
+    },
+    "rera_count": {
+      "segment": "tst",
+      "value": 1.0,
+      "unit": "count"
+    },
+    "ahi_tst": {
+      "segment": "tst",
+      "value": 30.2,
+      "unit": "events_per_hour"
+    },
+    "ahi_rem": {
+      "segment": "rem",
+      "value": 48.5,
+      "unit": "events_per_hour"
+    },
+    "ahi_nrem": {
+      "segment": "nrem",
+      "value": 28.5,
+      "unit": "events_per_hour"
+    },
+    "rdi_tst": {
+      "segment": "tst",
+      "value": 30.4,
+      "unit": "events_per_hour"
+    },
+    "rdi_rem": {
+      "segment": "rem",
+      "value": 48.5,
+      "unit": "events_per_hour"
+    },
+    "rdi_nrem": {
+      "segment": "nrem",
+      "value": 28.7,
+      "unit": "events_per_hour"
+    },
+    "apnea_index": {
+      "segment": "tst",
+      "value": 30.2,
+      "unit": "events_per_hour"
+    },
+    "hypopnea_index": {
+      "segment": "tst",
+      "value": 0.0,
+      "unit": "events_per_hour"
+    },
+    "cheyne_stokes_present": {
+      "segment": "tst",
+      "value": 0.0,
+      "unit": "boolean"
+    },
+    "periodic_breathing_events_tst": {
+      "segment": "tst",
+      "value": 0.0,
+      "unit": "count"
+    }
+  },
+  "oximetry": {
+    "spo2_mean_tst": {
+      "segment": "tst",
+      "value": 90.0,
+      "unit": "percent"
+    },
+    "spo2_mean_nrem": {
+      "segment": "nrem",
+      "value": 90.0,
+      "unit": "percent"
+    },
+    "spo2_mean_rem": {
+      "segment": "rem",
+      "value": 89.0,
+      "unit": "percent"
+    },
+    "spo2_min_tst": {
+      "segment": "tst",
+      "value": 67.0,
+      "unit": "percent"
+    },
+    "spo2_min_rem": {
+      "segment": "rem",
+      "value": 69.0,
+      "unit": "percent"
+    },
+    "spo2_min_with_resp_event": {
+      "segment": "tst",
+      "value": 74.0,
+      "unit": "percent"
+    },
+    "spo2_mean_before_sleep": {
+      "segment": "all",
+      "value": 90.0,
+      "unit": "percent"
+    },
+    "desaturation_total": {
+      "segment": "tst",
+      "value": 109.0,
+      "unit": "count"
+    },
+    "desaturation_index": {
+      "segment": "tst",
+      "value": 24.4,
+      "unit": "events_per_hour"
+    },
+    "desaturation_index_rem": {
+      "segment": "rem",
+      "value": 46.0,
+      "unit": "events_per_hour"
+    },
+    "desaturation_index_nrem": {
+      "segment": "nrem",
+      "value": 22.3,
+      "unit": "events_per_hour"
+    },
+    "episodes_below_85pct": {
+      "segment": "tst",
+      "value": 104.0,
+      "unit": "count"
+    },
+    "time_below_90pct": {
+      "segment": "tst",
+      "value": 80.0,
+      "unit": "min"
+    },
+    "time_below_88pct": {
+      "segment": "tst",
+      "value": 33.4,
+      "unit": "min"
+    },
+    "time_below_85pct": {
+      "segment": "tst",
+      "value": 9.5,
+      "unit": "min"
+    }
+  },
+  "cardiac": {
+    "heart_rate_mean": {
+      "segment": "tst",
+      "value": 84.4,
+      "unit": "bpm"
+    },
+    "heart_rate_sd": {
+      "segment": "tst",
+      "value": 7.2,
+      "unit": "bpm"
+    },
+    "hr_min_wake": {
+      "segment": "wake",
+      "value": 68.0,
+      "unit": "bpm"
+    },
+    "hr_max_wake": {
+      "segment": "wake",
+      "value": 108.0,
+      "unit": "bpm"
+    },
+    "hr_min_nrem": {
+      "segment": "nrem",
+      "value": 61.0,
+      "unit": "bpm"
+    },
+    "hr_max_nrem": {
+      "segment": "nrem",
+      "value": 113.0,
+      "unit": "bpm"
+    },
+    "hr_min_rem": {
+      "segment": "rem",
+      "value": 64.0,
+      "unit": "bpm"
+    },
+    "hr_max_rem": {
+      "segment": "rem",
+      "value": 113.0,
+      "unit": "bpm"
+    },
+    "hr_min_during_resp_event": {
+      "segment": "tst",
+      "value": 64.0,
+      "unit": "bpm"
+    },
+    "bradycardia_count": {
+      "segment": "tst",
+      "value": 5.0,
+      "unit": "count"
+    },
+    "arrhythmia_count": {
+      "segment": "tst",
+      "value": 0.0,
+      "unit": "count"
+    }
+  },
+  "movement": {
+    "bruxism_count_tst": {
+      "segment": "tst",
+      "value": 9.0,
+      "unit": "count"
+    },
+    "bruxism_index_tst": {
+      "segment": "tst",
+      "value": 2.0,
+      "unit": "events_per_hour"
+    },
+    "rbd_count": {
+      "segment": "tst",
+      "value": 0.0,
+      "unit": "count"
+    },
+    "rmd_count": {
+      "segment": "tst",
+      "value": 0.0,
+      "unit": "count"
+    }
+  }
+}
